@@ -14,6 +14,7 @@ class TodoItem extends React.Component{
             this.setState({ editing: false })
         }
       }
+
     render(){
         const completedStyle = {
             fontStyle: "italic",
