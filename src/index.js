@@ -8,5 +8,6 @@ import "./functionBased/App.css"
 //component file
 import TodoContainer from "./functionBased/components/TodoContainer"
 
-ReactDom.render( <React.StrictMode><BrowserRouter><TodoContainer /> </BrowserRouter> </React.StrictMode>, document.getElementById("root")
+const root = ReactDom.createRoot(document.getElementById("root"))
+root.render( <React.StrictMode><BrowserRouter><TodoContainer /> </BrowserRouter> </React.StrictMode>
 )

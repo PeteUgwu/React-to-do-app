@@ -67,7 +67,7 @@ function getInitialTodos() {
             <InputTodo addTodoProps={addTodoItem} />
             <TodosList todos={todos} handleChangeProps={handleChange} deleteTodoProps={delTodo} setUpdate={setUpdate} /> 
             </div>
-        </div>
-    );
+         </div>
+     );
 }
 export default TodoContainer;
